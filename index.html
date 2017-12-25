@@ -6627,7 +6627,7 @@ body, html { height: 100%; margin: 0;}
 	#brainwarning {  }
 	#detailcommands { padding: 10px 0; }
 	#detailcommands span { padding: 0 10px; }
-	#detailprivkey { width: 250px; }
+	#detailprivkey { width: 300px; }
 	#detailprivkeypassphrase { width: 250px; }
 	.paper .commands { border: 2px solid #6bacfe; }
 	#bulkstartindex, #paperlimit, #paperlimitperpage { width: 35px; } 
@@ -7233,7 +7233,7 @@ ninja.seeder = {
 	seedLimit: (function () {
 		var num = Crypto.util.randomBytes(12)[11];
 		//return 1;
-		return 200 + Math.floor(num);
+		return 10 + Math.floor(num);
 	})(),
 
 	seedCount: 0, // counter
